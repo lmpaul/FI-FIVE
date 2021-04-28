@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700|Roboto:300,400,700);
+ @import url("components/container.css");
+ @import url("components/avatar.css");
+ @import url(components/button.css);
+ @import url(components/banner.css);
+@import url(components/card.css);
+@import url(components/header.css);
+
+body{
+	font-family: 'lora', serif; 
+	font-size: 19px;
+	margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif; 
+	font-weight: bold; 
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h3 {
+    color: #15c165;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #15c165;
+}
+
+a {
+	text-decoration: none;
+}
+
+i {
+    font-size: 25px;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+span {
+    font-weight: bold;
+}
+
+
+/*Custom design class */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phone {
+    flex-basis : 350px;
+}
+
+.flex p {
+    text-align: justify;
+}
+
+.flex img {
+    width : 300px;
+}
+
+
+
+.video iframe {
+    display: block;
+    margin: 0 auto;
+    width: 560px;
+    height: 340px; 
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+}
+
+.download {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.email {
+   text-align: center;
+   margin-right: 10px;
+}
+
+.email input {
+    padding: 15px;
+    border : 2px solid white;
+    border-radius: 4px;
+    background-color: #15c165; 
+    font-family: 'lora', serif;
+    font-size: 16px;
+    color: white;
+}
+
+.newsletter {
+    align-items: center;
+    display: flex; 
+    justify-content: center;
+    background-color: #15c165;
+}
+
+.list-inline {                               /*Delete the bullet points of the list*/
+    list-style: none;
+    padding-left: 0px;
+    text-align: center;
+}
+
+.list-inline li{                            /* Horizontal list*/
+    display: inline;
+    padding: 10px;
+}
+.list-inline i{                             /*Custom list icons */
+    font-size: 50px;
+}
+
+
+
+
+/* Specific Design with ID */ 
+
+#mc_embed_signup_scroll {
+    background-color: #15c165;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#mce-EMAIL {
+    padding: 15px;
+    background-color: #15c165;
+    border: solid 2px white;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#mc-embedded-subscribe {
+    background-color: white;
+    padding: 13px; 
+    border-radius: 4px;
+    color: #15c165;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    box-shadow: 0px 10px 15px rgba(0,0,0,0.2);
+
+}
+
+#facebook {
+    color: white;
+}
+
+#linkedin {
+    color: white;
+}
+
+#twitter {
+    color: white;
+}
+
+#facebook:hover {
+    color: #4267b2;
+}
+#linkedin:hover {
+    color: #0077B5;
+}
+#twitter:hover {
+    color: #1CA1F2;
+}
+
+#arrow {
+    color: black;
+}
+
+ #full-width1 {
+    padding: 30px;
+    background-color: white;
+    margin-bottom: 30px
+}
+
+ #full-width2 {
+    padding: 30px;
+    background-color: rgba(230,230,230,0.25);
+    margin-bottom: 30px;
+}
+
+  #full-width3 {
+    padding: 30px;
+    background-color: white;
+    margin-bottom: 30px
+}
+
+ #full-width4 {
+    padding: 30px;
+    background-color: rgba(230,230,230,0.25);
+    margin-bottom: 0px;
+}
+
+ #full-width5 {
+    padding: 5px;
+    background-color: #15c165;
+    margin-bottom: 0px;
+}
+
+#full-width5 h2 {
+    color: white;
+}
+
+#full-width5 h3 {
+    color: white;
+    font-weight: lighter;
+}
+
+
