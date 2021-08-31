@@ -1,0 +1,204 @@
+/* --- Google Fonts --- */
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700");
+
+/* --- Components design --- */
+@import url("components/navbar.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/badge.css");
+@import url("components/banner.css");
+@import url("components/searchbar.css");
+@import url("components/list.css");
+@import url("components/newsletter.css");
+@import url("components/footer.css");
+@import url("components/mediaqueries.css");
+
+/* -- Variables -- */
+
+:root {
+  --main-color: #38c165;
+  --main-color-dark: #2ca554;
+}
+
+/* --- Body, container and HTML tags --- */
+
+body {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.container:first-child {
+  margin-top: 75px;
+}
+
+@media (max-width: 768px) {
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", "sans-serif";
+  margin: 0;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 20px 0px;
+  color: var(--main-color);
+}
+
+a {
+  text-decoration: none;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+
+p {
+  margin: 0;
+}
+
+section {
+  padding: 50px 20px;
+}
+
+/* -- Common styles -- */
+
+.flex {
+  display: flex;
+}
+
+.center {
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.justify-text {
+  text-align: justify;
+}
+
+.bg-light {
+  background-color: rgb(253, 253, 253);
+}
+
+.bg-strong {
+  background-color: rgb(251, 251, 251);
+}
+
+.bg-dark {
+  background-color: rgb(238, 238, 238);
+}
+
+.img-rounded {
+  border-radius: 4px;
+}
+
+.shadow {
+  box-shadow: 4px 4px 10px rgb(235, 235, 235);
+}
+
+.two-columns {
+  display: flex;
+  width: 70%;
+  margin: 50px auto;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.split-2 {
+  width: 50%;
+}
+
+/* -- Specific designs -- */
+
+#avatar-design {
+  padding-top: 125px;
+}
+
+#icon-cards {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+#app-download img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#video iframe {
+  display: block;
+  margin: 50px auto;
+  width: 560px;
+  height: 340px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+#elo-system img {
+  height: 400px;
+  width: 400px;
+}
+
+#popular-fields {
+  margin: 20px auto;
+  justify-content: center;
+}
+
+/* -- Media queries -- */
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .two-columns {
+    flex-direction: column;
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .split-2 {
+    width: 80%;
+    margin: 20px auto;
+  }
+
+  #create-games img {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  #elo-system img {
+    width: 80%;
+    height: 300px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  #video {
+    display: none;
+  }
+}

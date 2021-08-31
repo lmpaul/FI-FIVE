@@ -1,0 +1,39 @@
+.searchbar {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.searchbar input {
+  height: 3rem;
+  width: 100%;
+  border: solid 1px rgba(255, 255, 255, 0.2);
+  box-shadow: 4px 4px 10px rgb(235, 235, 235);
+}
+
+.searchbar input::placeholder {
+  color: grey;
+  margin-left: 5px;
+}
+
+.searchbar input:focus {
+  border: solid 1px #f29830;
+  outline: none !important;
+}
+
+.searchbar .search-button {
+  position: absolute;
+  right: 0px;
+  top: 8px;
+}
+
+/* -- Media queries -- */
+
+@media (max-width: 768px) {
+  .searchbar a {
+    font-size: 12px;
+  }
+
+  .searchbar .search-button {
+    top: 10px;
+  }
+}

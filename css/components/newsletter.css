@@ -1,0 +1,11 @@
+.newsletter input {
+  padding: 12px 17px;
+  border-radius: 2px;
+  border: solid 1px var(--main-color);
+}
+
+@media (max-width: 768px) {
+  .newsletter input {
+    margin-top: 20px;
+  }
+}

@@ -1,0 +1,50 @@
+.button {
+  color: white;
+  background-color: var(--main-color);
+  padding: 8px 13px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px rgb(235, 235, 235);
+  border: solid 2px var(--main-color);
+}
+
+.button:hover {
+  text-decoration: none;
+  background-color: var(--main-color-dark);
+  border: solid 2px var(--main-color-dark);
+  box-shadow: 4px 4px 10px rgb(255, 255, 255);
+}
+
+.second-button {
+  color: var(--main-color);
+  background-color: white;
+  padding: 8px 13px;
+  border: solid 2px var(--main-color);
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px rgb(235, 235, 235);
+}
+
+.second-button:hover {
+  color: white;
+  background-color: var(--main-color);
+  padding: 8px 13px;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px rgb(255, 255, 255);
+}
+
+.search-button {
+  color: white;
+  background-color: var(--main-color);
+  padding: 6px 11px;
+  border-radius: 4px;
+  font-weight: bold;
+  border: solid 2px var(--main-color);
+  font-weight: 400;
+}
+
+.search-button:hover {
+  text-decoration: none;
+  background-color: var(--main-color-dark);
+  border: solid 1px var(--main-color-dark);
+  box-shadow: 4px 4px 10px rgb(255, 255, 255);
+  font-weight: 400;
+}

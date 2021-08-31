@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>lmpaul</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/5a470b2478.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="logo center">
+        <img src="images/logo.png" alt="">
+      </div>
+
+      <div class="right-items center">
+        <ul class="nav-links">
+          <li><a class="button" href="">Connexion</a></li>
+          <li><a class="second-button" href="">Créer un compte</a></li>
+        </ul>
+
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+
+    <!-- BANNER  -->
+
+      <div class="banner">
+        <div class="banner-content">
+          <h1>FI-FIVE : L'appli des joueurs de soccer</h1>
+          <h2>Trouve des parties et affronte des joueurs de ton niveau !</h2>
+        </div>
+       
+      </div>
+
+    <!-- LES SERVICES DE FI-FIVE -->
+
+    <section id="presentation" class="bg-light">
+      <h2 class="center">Les services de FI-FIVE :</h2>
+      <div id="video" class="center">
+        <iframe class="center" src="https://www.youtube.com/embed/PGr1OR11xGA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+      </div>
+      <div class="flex wrap" id="icon-cards">
+        <div class="icon-card">
+          <img src="images/soccer.png" alt="Football ball icon"></img>
+          <h3>Trouve des parties</h3>
+        </div>
+        <div class="icon-card">
+          <img src="images/field.png" alt="Football field icon"></img>
+          <h3>Réserve des créneaux</h3>
+        </div>
+        <div class="icon-card">
+          <img src="images/ranking.png" alt="Ranking icon"></img>
+          <h3>Améliore toi</h3>
+        </div>
+        <div class="icon-card">
+          <img src="images/trophy.png" alt="Trophy icon"></img>
+          <h3>Deviens le meilleur</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- TÉLÉCHARGE NOTRE APPLICATION -->
+     
+    <section id="app-download" class="bg-strong">
+        <h2 class="center">Télécharge notre application</h2>
+        <h3 class="center">Disponible sur iPhone et Android</h3>
+        <div class="two-columns">
+          <div class="split-2">
+            <p class="justify-text">FI-FIVE est une plateforme permettant aux joueurs de soccer de créer un match, de trouver une équipe ou de trouver des joueurs pour compléter une équipe, mais aussi et surtout d’intégrer le classement FIFIVE permettant d’évaluer le niveau individuel de chaque joueur et de renforcer l’aspect compétitif du soccer amateur.</p>
+            <br>
+            <a class="button" href=""><i class="fas fa-download"></i> Télécharger</a>
+          </div>
+          <div class="split-2 center">
+            <img src="images/iPhone.png" alt=""> </img> 
+          </div>
+    </section>
+
+    <!-- CRÉE OU REJOINS DES PARTIES -->
+    <section id="create-games" class="bg-light">
+        <h2 class="center">Crée ou rejoins des parties</h2>
+        <h3 class="center">Et réserve des terrains chez nos partenaires</h3>
+        <div class="two-columns">
+          <div class="split-2">
+            <img class="img-rounded" src="images/map.png" alt="">
+          </div>
+          <div class="split-2">
+            <p class="justify-text">
+              Il suffira de quelques clics à l'utilisateur pour réserver un terrain de soccer proche de sa position. Les utilisateurs de FIFIVE auront la possibilité de payer directement leur réservation sur l’application, mais ils peuvent aussi payer sur place. Les utilisateurs ne payent pas directement FIFIVE et le prix reste le même que dans les centres.
+            </p>
+          </div>
+        </div>
+    </section>
+
+    <!-- AFFRONTE DES JOUEURS DE TON NIVEAU -->
+    <section id="elo-system" class="bg-strong">
+        <h2 class="center">Affronte des joueurs de ton niveau</h2>
+        <h3 class="center">Grâce à notre système d'élo</h3>
+        <div class="two-columns">
+          <p class="split-2 justify-text">
+            A chaque victoire, défaite ou match nul, les joueurs les joueurs voient leur ELO évoluer (comme aux échecs par exemple). Une victoire permet de gagner des points, une défaite en fait perdre. Les points gagnés et perdus sont calculés en fonction de l’ELO des joueurs adverses : gagner contre une équipe moins forte fait gagner moins d’ELO que de gagner contre des joueurs meilleurs.
+          </p>
+          <img src="images/profil.png" alt="" class="split-2">
+        </div>
+    </section>
+
+    <!-- TROUVE UN TERRAIN PRÈS DE CHEZ TOI -->
+    <section id="search-bar" class="bg-light">
+      <h2 class="center">Trouve un terrain près de chez toi</h2>
+        <div class="searchbar relative">
+          <input type="text" />
+          <a href="" class="search-button"><i class="fas fa-search"></i> Rechercher</a>
+        </div>
+    </section>
+
+    <!-- LES TERRAINS POPULAIRES -->
+    <section class="bg-light">
+      <h3 class="center">Les terrains les plus demandés : </h3>
+      <div id="popular-fields" class="flex wrap">
+        <div class="card" id="card-parc-des-princes">
+          <div class="card-hover">
+            <img src="images/psg.png" class="avatar card-avatar" />
+            <span class="card-category">#1</span>
+            <div class="card-description">
+              <h3>Parc des princes</h3>
+            </div>
+            <a class="button" href="#">Réserver</a>
+          </div>
+        </div>
+        <div class="card" id="card-velodrome">
+          <div class="card-hover">
+            <img src="images/om.png" class="avatar card-avatar" />
+            <span class="card-category">#2</span>
+            <div class="card-description">
+              <h3>Orange Vélodrome</h3>
+            </div>
+            <a class="button" href="#">Réserver</a>
+          </div>
+        </div>
+        <div class="card" id="card-groupama-stadium">
+          <div class="card-hover">
+            <img src="images/ol.png" class="avatar card-avatar" />
+            <span class="card-category">#3</span>
+            <div class="card-description">
+              <h3>Groupama Stadium</h3>
+            </div>
+            <a class="button" href="#">Réserver</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLASSEMENT DES JOUERS -->
+    <section class="bg-strong" id="players-ranking">
+      <h2 class="center">Le classement des joueurs</h2>
+      <h3 class="center">Qui marquent le plus de buts</h3>
+      <ul class="list-unstyled">
+        <li class="list-item">
+          <div class="list-item-upvote text-center">
+            <p>1</p>
+          </div>
+          <img
+            src="images/lewandowski.jpeg"
+            alt=""
+            class="list-item-image img-rounded"
+          />
+
+          <div class="list-item-description">
+            <h3>Robert Lewandowski</h3>
+            <p>Bayern Munich</p>
+          </div>
+        </li>
+
+        <li class="list-item">
+          <div class="list-item-upvote text-center">
+            <p>2</p>
+          </div>
+          <img
+            src="images/messi.png"
+            alt=""
+            class="list-item-image img-rounded"
+          />
+
+          <div class="list-item-description">
+            <h3>Lionel Messi</h3>
+            <p>Paris Saint-Germain</p>
+          </div>
+        </li>
+
+        <li class="list-item">
+          <div class="list-item-upvote text-center">
+            <p>3</p>
+          </div>
+          <img
+            src="images/ronaldo.jpeg"
+            alt=""
+            class="list-item-image img-rounded"
+          />
+
+          <div class="list-item-description">
+            <h3>Cristiano Ronaldo</h3>
+            <p>Manchester United</p>
+          </div>
+
+        </li>
+      </ul>
+    </section>
+
+    <!-- NEWSLETTER -->
+
+    <section class="bg-dark">
+      <div class="newsletter two-columns">
+        <p>
+          <strong>Souscrivez à notre newsletter</strong> <br />et recevez toutes nos actualités !
+        </p>
+        <div class="center">
+          <input placeholder="Votre email..." />
+          <a href="" class="button">S'inscrire</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- FOOTER DESIGN -->
+    </div>
+    <section class="footer">
+      <div class="footer-links">
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+      </div>
+      <div class="footer-copyright center">
+        This page has been made with <i class="fas fa-mug-hot"></i> by lmpaul
+      </div>
+    </section>
+
+    <script src="navbar.js"></script>
+  </body>
+</html>
