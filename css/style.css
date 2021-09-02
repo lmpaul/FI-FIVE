@@ -29,6 +29,11 @@ body {
   margin: 0px;
 }
 
+p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .container {
   width: 90%;
   margin: 0 auto;
@@ -200,5 +205,10 @@ section {
 @media (max-width: 600px) {
   #video {
     display: none;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 25px;
   }
 }
