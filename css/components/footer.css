@@ -26,7 +26,7 @@
 
 /* -- Media queries for responsive design */
 
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
   .footer {
     flex-direction: column;
     padding-top: 20px;

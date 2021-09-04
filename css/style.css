@@ -173,7 +173,7 @@ section {
 
 /* -- Media queries -- */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .container {
     width: 100%;
   }
@@ -190,16 +190,30 @@ section {
     margin: 20px auto;
   }
 
+  #app-download img {
+    width: 40%;
+    margin: 0 auto;
+  }
+
   #create-games img {
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
   }
 
   #elo-system img {
-    width: 80%;
+    width: 40%;
     height: 300px;
     margin: 0 auto;
   }
+}
+
+@media (max-width: 768px) {
+  #elo-system img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 400px) {
 }
 
 @media (max-width: 600px) {

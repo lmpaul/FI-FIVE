@@ -4,7 +4,7 @@
   border: solid 1px var(--main-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .newsletter input {
     margin-top: 20px;
   }

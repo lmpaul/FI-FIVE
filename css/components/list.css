@@ -37,7 +37,7 @@
 
 /* -- Media queries -- */
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .list-item img {
     width: 20%;
     height: 80%;

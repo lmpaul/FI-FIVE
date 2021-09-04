@@ -42,3 +42,11 @@
   margin-top: 20px;
   box-shadow: 4px 4px 10px rgb(59, 59, 59);
 }
+
+/* -- Media queries -- */
+
+@media (max-width: 812px) {
+  .banner {
+    margin-top: 50px;
+  }
+}
